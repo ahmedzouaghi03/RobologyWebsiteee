@@ -1,0 +1,59 @@
+@font-face{
+    font-family: ahmed;
+    src: url('./fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: ahmed1;
+    src: url('./fonts/poppins/Poppins-ExtraBold.ttf');
+}
+/*   */
+body{
+
+}
+p{
+    font-size: 20px;
+    font-family: ahmed1;
+    font-style: italic;
+    text-decoration:overline ;
+    text-shadow: 4px 5px 5px rgba(0, 0, 128, 0.683);
+    text-align: center;
+    color: rgba(203, 20, 220,1);
+
+}
+
+table{
+    border-width: 4px;
+    border-color: darkmagenta;
+}
+td{
+    text-align: center;
+    border-width: 4px;
+}
+th{
+    border-width: 4px;
+}
+img[src="./assets/robology.png"]{
+    width: 300px;
+    opacity: 0.5;
+}
+img:hover{
+    width: 320px;
+    opacity: 1;
+    cursor: pointer;
+}
+.custom-list li:nth-child(1){
+    list-style-image: url('./assets/gifcolored.gif');
+}
+.custom-list li:nth-child(2){
+    list-style-image: url('./assets/gifsquare.gif');
+}
+.custom-list li:nth-child(3){
+    list-style-image: url('./assets/gifheart.gif');
+}
+.custom-list li:nth-child(4){
+    list-style-image: url('./assets/gifcolored.gif');
+}
+.custom-list li:nth-child(5){
+    list-style-image: url('./assets/gifcolored.gif');
+}
